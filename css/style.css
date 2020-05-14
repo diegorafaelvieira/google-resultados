@@ -1,0 +1,85 @@
+/* ESTILOS GERAIS */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.topo {
+  width: 100%;
+  height: 77px;
+  display: inline-block;
+  margin-left: 0px;
+}
+
+.topo_esquerda {
+  width: 80%;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.topo_direita {
+  width: 12%;
+  text-align: right;
+  margin: 45px 10px;
+}
+
+.topo_direita a {
+  margin-left: 10px;
+  padding: 8px;
+  margin-top: 12px;
+  border-radius: 10px;
+  background-color:#2B7DE9;
+  color: white;
+}
+
+.topo_direita img {
+  width: 20px;
+  height: auto;
+  text-align: right;
+  margin-right: 0px;
+}
+
+.logo {
+  width: 85px;
+  height: 32px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.busca {
+  display: flex;
+  width: 600px;        
+  height: 40px;
+  border: 1px solid #DFE1E5;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: -15px;
+  margin-left: 150px;
+}
+
+.pesquisa input {
+  width: 520px;
+  height: 28px;
+  margin: 5px;
+  border: none;
+  outline: none;
+}
+
+.mic, .teclado {
+  width: 20px;
+  height: auto;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.menu ul li a {
+  margin: 10px;
+  color: rgb(153, 151, 151);
+}
+
+.menu ul li a:hover {
+  color:#1A73E8;
+}
+
+
