@@ -4,4 +4,7 @@
 
  &nbsp;
  [AULA](https://alunos.b7web.com.br/curso/html5-e-css3/exercicio-um-clone-dos-resultados-do-google)
+ 
+  &nbsp;
+ [SITE](https://diegorafaelvieira.github.io/google-resultados/)  :desktop_computer:
 
