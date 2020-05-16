@@ -833,12 +833,12 @@ ul {
   }
 
   .logo {
-    width: 50px;
+    width: 35px;
     margin-left: 5px;
   }
 
   .busca {
-    width: 200px;
+    width: 170px;
     margin-left: 65px;
   }
 
@@ -851,12 +851,8 @@ ul {
     margin-right: 10px;
   }
 
-  .topo_direita a {
-    margin-left: 10px;
-  }
-
   .topo_direita img {
-    margin-left: -80px;
+    margin-left: -40px;
   }
 
   .menu {
