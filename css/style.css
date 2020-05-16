@@ -838,8 +838,9 @@ ul {
   }
 
   .busca {
-    width: 200px;
-    margin-left: 55px;
+    width: 210px;
+    margin-left: 65px;
+    margin-right: 5px;
   }
 
   .pesquisa input {
