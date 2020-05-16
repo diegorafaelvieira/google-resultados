@@ -1,0 +1,157 @@
+/* ESTILOS GERAIS */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* TOPO */
+.topo {
+  width: 100%;
+  height: 77px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+}
+
+.topo_esquerda {
+  width: 80%;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.topo_direita {
+  width: 20%;
+  text-align: right;
+  margin: 45px 10px;
+}
+
+.topo_direita a {
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #2b7de9;
+  color: white;
+}
+
+.topo_direita img {
+  width: 20px;
+  height: auto;
+  text-align: right;
+  margin-right: 0px;
+}
+
+.logo {
+  width: 85px;
+  height: 32px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* BUSCA */
+.busca {
+  display: flex;
+  width: 640px;
+  height: 40px;
+  border: 1px solid #dfe1e5;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: -15px;
+  margin-left: 150px;
+}
+
+.pesquisa input {
+  width: 520px;
+  height: 28px;
+  margin: 5px 20px;
+  border: none;
+  outline: none;
+}
+
+.mic,
+.teclado {
+  width: 20px;
+  height: auto;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+/* LINKS */
+.menu ul li a {
+  font-size: 14px;
+  line-height: 26px;
+  margin-left: 25px;
+  color: #70757a;
+}
+
+.menu ul li a:hover {
+  color: #1a73e8;
+}
+
+.tempo {
+  font-size: 12px;
+  color: #70757a;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+/* RESULTADOS */
+.lista_resultados {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.resultado {
+  margin: 25px 0px;
+}
+
+.resultado h3 {
+  font-size: 22px;
+  color: #2f0dab;
+  line-height: 26px;
+}
+
+.resultado a {
+  margin-top: 5px;
+  color: #006621;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.resultado p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #4d5156;
+}
+
+/* RELACIONADOS */
+.relacionados {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.rel_esquerda {
+  width: 50%;
+  height: 115px;
+}
+
+.rel_esquerda ul li a,
+.rel_direita ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #1a58c7;
+}
+
+.rel_esquerda a:hover,
+.rel_direita a:hover {
+  text-decoration: underline;
+}
+
+.sub h3 {
+  margin-left: 20px;
+  font-size: 20px;
+  line-height: 26px;
+  color: #222;
+  margin-bottom: 25px;
+}
