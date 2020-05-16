@@ -833,26 +833,37 @@ ul {
   }
 
   .logo {
-    width: 35px;
+    width: 40px;
     margin-left: 5px;
   }
 
   .busca {
-    width: 170px;
-    margin-left: 65px;
+    width: 210px; /*160*/
+    margin-left: 55px;
   }
 
   .pesquisa input {
-    width: 100px;
+    width: 125px; /*75*/
+    font-size: 13px;
   }
 
   .mic,
   .teclado {
-    margin-right: 10px;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
   }
 
   .topo_direita img {
-    margin-left: -40px;
+    margin-left:-25px;
+    margin-top: 4px;
+    width: 15px;
+    height: auto;
+  }
+
+  .topo_direita a {
+    font-size: 7px;
+    margin-left: 10px;
   }
 
   .menu {
