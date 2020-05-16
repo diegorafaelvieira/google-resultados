@@ -833,17 +833,17 @@ ul {
   }
 
   .logo {
-    width: 40px;
+    width: 45px;
     margin-left: 5px;
   }
 
   .busca {
-    width: 210px; /*160*/
+    width: 200px;
     margin-left: 55px;
   }
 
   .pesquisa input {
-    width: 125px; /*75*/
+    width: 115px; 
     font-size: 13px;
   }
 
