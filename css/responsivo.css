@@ -1,0 +1,107 @@
+/* RESPONSIVIDADE */
+/* 788px ESTILO -> TABLET */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  p {
+    font-size: 14px;
+		line-height: 22px;
+  }
+
+  .logo {
+    width: 70px;
+    margin-left: 10px;
+  }
+
+  .busca {
+    width: 480px;
+    margin-left: 100px;
+  }
+
+  .pesquisa input {
+    width: 360px;
+  }
+
+  .mic,
+  .teclado {
+    margin-right: 10px;
+  }
+
+  .topo_direita a {
+    margin-left: 15px;
+    padding: 8px;
+    margin-top: 15px;
+  }
+
+  .topo_direita img {
+    margin-left: -50px;
+	}
+	
+	.menu ul li a {
+		font-size: 12px;
+	}
+  /* Final do Estilo para TABLET */
+}
+
+/* <= 787px ESTILO -> CELULAR  */
+@media only screen and (max-width: 787px) {
+
+	h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  p {
+    font-size: 14px;
+		line-height: 20px;
+	}
+
+	.topo {
+		height: 45px;
+	}
+
+	.logo {
+    width: 50px;
+    margin-left: 5px;
+  }
+
+  .busca {
+    width: 270px;
+    margin-left: 65px;
+  }
+
+  .pesquisa input {
+    width: 140px;
+  }
+
+  .mic,
+  .teclado {
+    margin-right: 10px;
+	}
+	
+	.topo_direita a {
+    margin-left: 10px;
+  }
+
+  .topo_direita img {
+    margin-left: -50px;
+	}
+
+	.menu {
+		margin-top: 25px;
+	}
+
+	.menu ul li a {
+		margin-left: 10px;
+		font-size: 12px;
+	}
+
+	.relacionados ul li a{
+		font-size: 14px;
+	}
+
+  /* Final do estilo para CELULAR */
+}
