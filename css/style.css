@@ -8,7 +8,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
+html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -174,7 +174,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -184,7 +185,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -354,30 +356,70 @@ template {
 
 /**
  * Remove anchor tex-decoration
- */ 
+ */
 
- a {
-	text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 /**
  * Remove list-style
- */ 
+ */
 
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
 
-html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+em,
+img,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+article,
+footer,
+header,
+nav,
+section,
+main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, ul {
-	font-size: 1em;
-	font-weight: normal;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul {
+  font-size: 1em;
+  font-weight: normal;
 }
 
 *,
@@ -568,7 +610,6 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   }
 }
 
-
 /* ESTILOS GERAIS */
 * {
   font-family: Arial, Helvetica, sans-serif;
@@ -737,7 +778,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   p {
     font-size: 14px;
-		line-height: 22px;
+    line-height: 22px;
   }
 
   .logo {
@@ -767,32 +808,31 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
   .topo_direita img {
     margin-left: -50px;
-	}
-	
-	.menu ul li a {
-		font-size: 12px;
-	}
+  }
+
+  .menu ul li a {
+    font-size: 12px;
+  }
   /* Final do Estilo para TABLET */
 }
 
 /* <= 787px ESTILO -> CELULAR  */
 @media only screen and (max-width: 787px) {
-
-	h3 {
+  h3 {
     font-size: 20px;
     line-height: 24px;
   }
 
   p {
     font-size: 14px;
-		line-height: 20px;
-	}
+    line-height: 20px;
+  }
 
-	.topo {
-		height: 45px;
-	}
+  .topo {
+    height: 45px;
+  }
 
-	.logo {
+  .logo {
     width: 50px;
     margin-left: 5px;
   }
@@ -809,28 +849,28 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
   .mic,
   .teclado {
     margin-right: 10px;
-	}
-	
-	.topo_direita a {
+  }
+
+  .topo_direita a {
     margin-left: 10px;
   }
 
   .topo_direita img {
     margin-left: -50px;
-	}
+  }
 
-	.menu {
-		margin-top: 25px;
-	}
+  .menu {
+    margin-top: 25px;
+  }
 
-	.menu ul li a {
-		margin-left: 10px;
-		font-size: 12px;
-	}
+  .menu ul li a {
+    margin-left: 10px;
+    font-size: 12px;
+  }
 
-	.relacionados ul li a{
-		font-size: 14px;
-	}
+  .relacionados ul li a {
+    font-size: 14px;
+  }
 
   /* Final do estilo para CELULAR */
 }
